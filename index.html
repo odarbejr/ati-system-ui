@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        * {box-sizing: border-box;}
+
+        body { 
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        }
+        .header-bg{
+            background-color: #669649;
+        }
+        .header {
+            overflow: hidden;
+            padding: 5px 3px;
+            text-align: center;
+        }
+        .logo img{
+            width:75px;
+            height: 70px;
+            padding: 2px;
+            text-align:center;
+            background-color: #fff;
+            border-radius: 50%;
+        }.header-titled{
+            color: #fff;
+            font-size: 23px;
+            font-weight: 600;
+            text-align: left;
+            letter-spacing: 1px;
+        }
+        @media (max-width:768px) {
+            .logo img{
+                width:65px;
+                height: 60px;
+            }.header-titled{
+                font-size: 14px;
+                letter-spacing: 0;
+            }
+        }
+        .bg-cover-img{
+            width: 100%;
+            height: 600px;
+            border-radius: 10px;
+            object-fit: cover;
+        }.division-space{
+            margin-right: 40px;
+        }
+        .icons-img-md{
+            width: 100%;
+            width: 100px;
+            object-fit: contain;
+        }.titled-labels{
+            font-size: 14px;
+            font-weight: 600;
+        }
+    
+        @media (max-width:768px) {
+            .bg-cover-img{
+                width: 100%;
+                height: 300px;
+                border-radius: 10px;
+                background-size: none !important;
+            }.division-space{
+                margin-right: 0;
+            }
+        }
+        .footer-bg{
+            background-color: #EEEEEE;
+        }.footer-txt{
+            font-size: 15px;
+            color: #777777;
+            font-weight: 600;
+        }.footer-social-icons{
+            font-size:17px;
+            padding:4px 5px;
+            border-radius: 50%;
+            border: solid black 1px;
+            margin: 2px;
+        }.footer-fb-icons{
+            font-size:17px;
+            padding:4px 7px;
+            border-radius: 50%;
+            border: solid black 1px;
+            margin: 2px;
+        }
+    </style>
+</head>
+<body>
+    <!-- header Section -->
+    <div class="header-bg">
+        <div class="container">
+            <div class="header">
+                <a href="#" class="logo"><img src="https://killian.beecr8tive.net/beta/unexsys/images/ati_logo_feb_2020.png" alt=""></a>
+                <span class="header-titled">UNIFIED EXTENTION SYSTEM PORTAL</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col-lg-7 col-md-8">
+                <div class="division-space">
+                    <div style="border:solid 3px #46A6EC">
+                        <img src="assets\img\ATI.png" class="bg-cover-img">
+                    </div>
+                </div>
+            </div>
+            <!-- AEW Section -->
+            <div class="col-lg-5 col-md-4" style="padding-top:8%;">
+
+                <div class="d-flex justify-content-between">
+                    <div class="text-center">
+                        <img class="card-img-top icons-img-md" src="assets\img\ATI-2.png">
+                        <h6 class="titled-labels">AEW Registry System</h6>
+                    </div>
+                    <div class="text-center"><img class="card-img-top icons-img-md" src="assets\img\ATI-3.png">
+                        <h6 class="titled-labels">AFE PME</h6>
+                    </div>
+                    <div class="text-center"><img class="card-img-top icons-img-md" src="assets\img\ATI-4.png">
+                        <h6 class="titled-labels">AFE RESOURCE <br> INVENTORY</h6>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-between pt-5">
+                    <div> <!-- default division empty --></div>
+                    <div class="text-center">
+                        <img class="card-img-top icons-img-md" src="assets\img\ATI-5.png">
+                        <h6 class="titled-labels">AEW Registry System</h6>
+                    </div>
+                    <div class="text-center"><img class="card-img-top icons-img-md" src="assets\img\ATI-6.png">
+                        <h6 class="titled-labels">AFE PME</h6>
+                    </div>
+                    <div> <!-- default division empty --></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="container pt-5">
+        <div class="footer-bg p-2">
+            <div class="d-flex bd-highlight">
+                <div class="p-2 flex-grow-1 bd-highlight">
+                    <span><i class="fa fa-globe footer-social-icons"></i></span>
+                    <span><i class="fa fa-youtube footer-social-icons"></i></span>
+                    <span><i class="fa fa-instagram footer-social-icons"></i></span>
+                    <span><i class="fa fa-facebook footer-fb-icons"></i></span>
+                    <span><i class="fa fa-twitter footer-social-icons"></i></span>
+                </div>
+                <div class="p-2 bd-highlight footer-txt">Contact us</div>
+                <div class="p-2 bd-highlight"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                <div class="p-2 mr-5 bd-highlight"><i class="fa fa-phone" aria-hidden="true"></i></div>
+              </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
